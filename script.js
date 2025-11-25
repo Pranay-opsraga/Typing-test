@@ -349,14 +349,7 @@ const keyboardInput = (e) => {
     totalTyped += key;
     currentCharIndex += 1;
   }
-  console.log(
-    "e.key:",
-    e.key,
-    "totalTyped:",
-    totalTyped,
-    "currentCharIndex:",
-    currentCharIndex
-  );
+  
   const textArray = longText.split("");
 
   textContainer.innerText = "";
