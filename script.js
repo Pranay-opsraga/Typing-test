@@ -282,6 +282,25 @@ let timeInterval = null;
 let typingStarted = false;
 
 
+// Scrool Left and right functionality
+
+const scroll = (e) => {
+     if (e.key === "ArrowRight"){
+        textContainer.scrollLeft += 20;
+     }
+     if (e.key === "ArrowLeft"){
+        textContainer.scrollLeft -=20;
+     }
+}
+
+document.addEventListener("keydown", (e) => {
+      if (e.target.tagName == "INPUT" || e.target.tagName == "TEXTAREA") return;
+      scroll(e);
+});
+
+
+
+
 
 //Tmer logic
 
