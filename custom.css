@@ -1,0 +1,29 @@
+.correct {
+  color: green !important;
+}
+
+.error {
+  color: red !important;
+}
+
+.current-char {
+  text-decoration: underline;
+}
+
+span {
+    min-width: 14px;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+#text-container {
+  user-select: none;
+  pointer-events: none;
+  width: 600px;           
+  white-space: nowrap;     
+  overflow: hidden;        
+}
+
+

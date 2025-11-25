@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+    />
+
+    <!-- Your custom styles -->
+    <link rel="stylesheet" href="./src/custom.css" />
+
+
+
+    <title>Typing Test</title>
+  </head>
+  <body
+    class="flex flex-col justify-center items-center min-h-screen overflow-hidden font-mono text-2xl p-4"
+  >
+    <h1 class="text-4xl font-bold mb-4">Typing Test</h1>
+    <div
+      id="text-container"
+      class=" mt-5 mb-5 mx-auto p-[20px] bg-white rounded-[5px] leading-8"
+    >
+      This is our text.
+    </div>
+    <div id="timer">Time left: 60s</div>
+    <div id="final-score"></div>
+    <button
+      id="restart-button"
+      type="button"
+      class="mt-4 px-4 py-2 bg-blue-500 text-white rounded cursor-pointer hover:brightness-[1.2] transition"
+    >
+      Try Again
+    </button>
+    <script src="script.js"></script>
+  </body>
+</html>
